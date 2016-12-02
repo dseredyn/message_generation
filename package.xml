@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <package>
-  <name>message_generation</name>
+  <name>message_generation_subsystem_buffers</name>
   <version>0.4.0</version>
-  <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
-  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <description>Package modeling the build-time dependencies for generating language bindings of messages for subsystem buffers.
+        Based on ros/message_generation</description>
+  <maintainer email="dawid.seredynski@gmail.com">dseredyn</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/message_generation</url>
@@ -12,7 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>gencpp</run_depend>
+  <run_depend>gencpp_subsystem_buffers</run_depend>
   <run_depend>geneus</run_depend>
   <run_depend>gennodejs</run_depend>
   <run_depend>genlisp</run_depend>
